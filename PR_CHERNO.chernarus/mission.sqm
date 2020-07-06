@@ -8,18 +8,18 @@ class EditorData
 	toggles=526;
 	class ItemIDProvider
 	{
-		nextID=414;
+		nextID=415;
 	};
 	class LayerIndexProvider
 	{
-		nextID=4;
+		nextID=8;
 	};
 	class Camera
 	{
-		pos[]={1896.8671,680.08234,14550.728};
-		dir[]={0.64702541,-0.67570716,0.35359511};
-		up[]={0.59304291,0.73697549,0.32408878};
-		aside[]={0.47957498,1.383177e-005,-0.87761158};
+		pos[]={1637.8889,534.39618,14428.99};
+		dir[]={-0.0772902,-0.7875672,0.61156809};
+		up[]={-0.098749228,0.61605388,0.78140551};
+		aside[]={0.99220675,1.8733437e-005,0.12536816};
 	};
 };
 binarizationWanted=0;
@@ -47,13 +47,14 @@ addons[]=
 	"CUP_Editor_Buildings_Config",
 	"A3_Structures_F_Enoch_Military_Training",
 	"A3_Modules_F",
-	"A3_Modules_F_Curator_Curator"
+	"A3_Modules_F_Curator_Curator",
+	"CUP_WheeledVehicles_TT650"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=23;
+		items=24;
 		class Item0
 		{
 			className="CUP_CAStructures_Mil";
@@ -197,6 +198,11 @@ class AddonsMetaData
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
+		class Item23
+		{
+			className="CUP_WheeledVehicles_TT650";
+			name="CUP_WheeledVehicles_TT650";
+		};
 	};
 };
 randomSeed=16775407;
@@ -226,7 +232,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=185;
+		items=186;
 		class Item0
 		{
 			dataType="Object";
@@ -6723,6 +6729,7 @@ class Mission
 					};
 					id=409;
 					type="B_Pilot_F";
+					atlOffset=-0.00061035156;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -6771,6 +6778,7 @@ class Mission
 			{
 			};
 			id=410;
+			atlOffset=-0.00061035156;
 		};
 		class Item183
 		{
@@ -6792,6 +6800,7 @@ class Mission
 					{
 						name="cameraman";
 						description="cameraman";
+						isPlayable=1;
 					};
 					id=411;
 					type="B_Soldier_F";
@@ -6851,7 +6860,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{this exec ""camera.sqs"";}";
+				onActivation="call{cameraman exec ""camera.sqs"";}";
 				sizeA=10;
 				sizeB=10;
 				repeatable=1;
@@ -6859,6 +6868,23 @@ class Mission
 			};
 			id=413;
 			type="EmptyDetector";
+		};
+		class Item185
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1912.7744,342.22226,13388.104};
+				angles[]={6.1808786,0,6.1742835};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=414;
+			type="CUP_C_TT650_RU";
+			atlOffset=-6.1035156e-005;
 		};
 	};
 	class Connections

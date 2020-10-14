@@ -1,0 +1,672 @@
+version=53;
+center[]={2007.0621,446.25003,14641.747};
+class items
+{
+	items=9;
+	class Item0
+	{
+		dataType="Group";
+		side="West";
+		class Entities
+		{
+			items=1;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-1.7541504,2.25354,5.7773438};
+					angles[]={0,1.2140161,0};
+				};
+				side="West";
+				flags=7;
+				class Attributes
+				{
+					init="call{[this, ""Acts_Briefing_SC_Loop""] remoteExec [""switchmove"", 0]; [this, ""Acts_Briefing_SC_Loop""] remoteExec [""playmove"", 0]; [this, ""Acts_Briefing_SC_Loop""] remoteExec [""playmove"", 0]; [this, ""Acts_Briefing_SC_Loop""] remoteExec [""playmove"", 0]; [this, ""Acts_Briefing_SC_Loop""] remoteExec [""playmove"", 0]; [this, ""Acts_Briefing_SC_Loop""] remoteExec [""playmove"", 0]; [this, ""Acts_Briefing_SC_Loop""] remoteExec [""playmove"", 0]; [this, ""Acts_Briefing_SC_Loop""] remoteExec [""playmove"", 0]; [this, ""Acts_Briefing_SC_Loop""] remoteExec [""playmove"", 0]; [this, ""Acts_Briefing_SC_Loop""] remoteExec [""playmove"", 0]; [this, ""Acts_Briefing_SC_Loop""] remoteExec [""playmove"", 0]; [this, ""Acts_Briefing_SC_Loop""] remoteExec [""playmove"", 0]; [this, ""Acts_Briefing_SC_Loop""] remoteExec [""playmove"", 0]; [this, ""Acts_Briefing_SC_Loop""] remoteExec [""playmove"", 0]; this disableAI ""ANIM"";}";
+				};
+				id=157;
+				type="CUP_B_CDF_Militia_MNT";
+				atlOffset=-0.093994141;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="CUP_D_Male03_CZ_ACR";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.05;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+		};
+		class Attributes
+		{
+		};
+		id=158;
+		atlOffset=-0.093994141;
+	};
+	class Item1
+	{
+		dataType="Group";
+		side="West";
+		class Entities
+		{
+			items=1;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-11.812134,0.75180054,-19.947266};
+					angles[]={0,4.0469823,0};
+				};
+				side="West";
+				flags=7;
+				class Attributes
+				{
+					init="call{[this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_5_loop""] remoteExec [""switchmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_5_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_5_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_5_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_5_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_5_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_5_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_5_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_5_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_5_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_5_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_5_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_5_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_5_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_5_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_5_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_5_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_5_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_5_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_5_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_5_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_5_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_5_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_5_loop""] remoteExec [""playmove"", 0]; this disableAI ""ANIM"";}";
+				};
+				id=161;
+				type="CUP_B_CDF_Soldier_AR_MNT";
+				atlOffset=-0.11099243;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="CUP_D_Male03_CZ_ACR";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.99000001;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+		};
+		class Attributes
+		{
+		};
+		id=162;
+		atlOffset=-0.11099243;
+	};
+	class Item2
+	{
+		dataType="Group";
+		side="West";
+		class Entities
+		{
+			items=1;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-27.312134,0.0014343262,-31.447266};
+					angles[]={0,3.4898555,0};
+				};
+				side="West";
+				flags=7;
+				class Attributes
+				{
+					init="call{[this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_1_loop""] remoteExec [""switchmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_1_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_1_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_1_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_1_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_1_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_1_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_1_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_1_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_1_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_1_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_1_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_1_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_1_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_1_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_1_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_1_loop""] remoteExec [""playmove"", 0]; this disableAI ""ANIM"";}";
+				};
+				id=151;
+				type="CUP_B_CDF_Soldier_MNT";
+				atlOffset=-0.0020141602;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="CUP_D_Male02_CZ_ACR";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.02;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+		};
+		class Attributes
+		{
+		};
+		id=152;
+		atlOffset=-0.0020141602;
+	};
+	class Item3
+	{
+		dataType="Group";
+		side="West";
+		class Entities
+		{
+			items=1;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-22.062134,0.0017700195,-34.947266};
+					angles[]={0,3.8493061,0};
+				};
+				side="West";
+				flags=7;
+				class Attributes
+				{
+					init="call{[this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_3_loop""] remoteExec [""switchmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_3_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_3_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_3_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_3_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_3_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_3_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_3_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_3_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_3_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_3_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_3_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_3_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_3_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_3_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_3_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_3_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_3_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_3_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_3_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_3_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_3_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_3_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_3_loop""] remoteExec [""playmove"", 0]; this disableAI ""ANIM"";}";
+				};
+				id=155;
+				type="CUP_B_CDF_Soldier_GL_MNT";
+				atlOffset=-0.015991211;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="CUP_D_Male03_CZ_ACR";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.98000002;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+		};
+		class Attributes
+		{
+		};
+		id=156;
+		atlOffset=-0.015991211;
+	};
+	class Item4
+	{
+		dataType="Group";
+		side="West";
+		class Entities
+		{
+			items=1;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-16.812134,0.75109863,-16.447266};
+					angles[]={0,3.4464841,0};
+				};
+				side="West";
+				flags=7;
+				class Attributes
+				{
+					init="call{[this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_4_loop""] remoteExec [""switchmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_4_loop""] remoteExec [""playmove"", 0];  [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_4_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_4_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_4_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_4_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_4_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_4_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_4_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_4_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_4_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_4_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_4_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_4_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_4_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_4_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_4_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_4_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_4_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_4_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_4_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_4_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_4_loop""] remoteExec [""playmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_4_loop""] remoteExec [""playmove"", 0]; this disableAI ""ANIM"";}";
+				};
+				id=159;
+				type="CUP_B_CDF_Soldier_MG_MNT";
+				atlOffset=-0.10101318;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="CUP_D_Male01_CZ_ACR";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.05;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+		};
+		class Attributes
+		{
+		};
+		id=160;
+		atlOffset=-0.10101318;
+	};
+	class Item5
+	{
+		dataType="Group";
+		side="West";
+		class Entities
+		{
+			items=1;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={27.687866,5.7514343,45.552734};
+					angles[]={0,0.52251667,0};
+				};
+				side="West";
+				flags=7;
+				class Attributes
+				{
+					init="call{[this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_4_loop""] remoteExec [""switchmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_4_loop""] remoteExec [""switchmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_4_loop""] remoteExec [""switchmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_4_loop""] remoteExec [""switchmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_4_loop""] remoteExec [""switchmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_4_loop""] remoteExec [""switchmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_4_loop""] remoteExec [""switchmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_4_loop""] remoteExec [""switchmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_4_loop""] remoteExec [""switchmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_4_loop""] remoteExec [""switchmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_4_loop""] remoteExec [""switchmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_4_loop""] remoteExec [""switchmove"", 0]; [this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_4_loop""] remoteExec [""switchmove"", 0];  this disableAI ""ANIM"";}";
+				};
+				id=402;
+				type="CUP_B_CDF_Soldier_MG_MNT";
+				atlOffset=0.18099976;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="CUP_D_Male01_CZ_ACR";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.05;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+		};
+		class Attributes
+		{
+		};
+		id=401;
+		atlOffset=0.18099976;
+	};
+	class Item6
+	{
+		dataType="Group";
+		side="West";
+		class Entities
+		{
+			items=1;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={18.187866,3.5014343,18.302734};
+					angles[]={0,3.759474,0};
+				};
+				side="West";
+				flags=7;
+				class Attributes
+				{
+					init="call{[this, ""Acts_Briefing_SC_Loop""] remoteExec [""switchmove"", 0]; [this, ""Acts_Briefing_SC_Loop""] remoteExec [""playmove"", 0]; [this, ""Acts_Briefing_SC_Loop""] remoteExec [""playmove"", 0];  [this, ""Acts_Briefing_SC_Loop""] remoteExec [""playmove"", 0];  [this, ""Acts_Briefing_SC_Loop""] remoteExec [""playmove"", 0];  [this, ""Acts_Briefing_SC_Loop""] remoteExec [""playmove"", 0];  [this, ""Acts_Briefing_SC_Loop""] remoteExec [""playmove"", 0];  [this, ""Acts_Briefing_SC_Loop""] remoteExec [""playmove"", 0];  [this, ""Acts_Briefing_SC_Loop""] remoteExec [""playmove"", 0];  [this, ""Acts_Briefing_SC_Loop""] remoteExec [""playmove"", 0];  [this, ""Acts_Briefing_SC_Loop""] remoteExec [""playmove"", 0];  [this, ""Acts_Briefing_SC_Loop""] remoteExec [""playmove"", 0];  [this, ""Acts_Briefing_SC_Loop""] remoteExec [""playmove"", 0];  [this, ""Acts_Briefing_SC_Loop""] remoteExec [""playmove"", 0];  [this, ""Acts_Briefing_SC_Loop""] remoteExec [""playmove"", 0];  this disableAI ""ANIM"";}";
+				};
+				id=249;
+				type="CUP_B_CDF_Soldier_MNT";
+				atlOffset=-0.12399292;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="CUP_D_Male01_CZ_ACR";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.04;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+		};
+		class Attributes
+		{
+		};
+		id=253;
+		atlOffset=-0.12399292;
+	};
+	class Item7
+	{
+		dataType="Group";
+		side="West";
+		class Entities
+		{
+			items=1;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={16.437866,3.2518005,17.302734};
+					angles[]={0,0.97796035,0};
+				};
+				side="West";
+				flags=7;
+				class Attributes
+				{
+					init="call{[this, ""Acts_Briefing_SA_Loop""] remoteExec [""switchmove"", 0]; [this, ""Acts_Briefing_SA_Loop""] remoteExec [""playmove"", 0]; [this, ""Acts_Briefing_SA_Loop""] remoteExec [""playmove"", 0]; [this, ""Acts_Briefing_SA_Loop""] remoteExec [""playmove"", 0]; [this, ""Acts_Briefing_SA_Loop""] remoteExec [""playmove"", 0]; [this, ""Acts_Briefing_SA_Loop""] remoteExec [""playmove"", 0]; [this, ""Acts_Briefing_SA_Loop""] remoteExec [""playmove"", 0]; [this, ""Acts_Briefing_SA_Loop""] remoteExec [""playmove"", 0]; [this, ""Acts_Briefing_SA_Loop""] remoteExec [""playmove"", 0]; [this, ""Acts_Briefing_SA_Loop""] remoteExec [""playmove"", 0]; [this, ""Acts_Briefing_SA_Loop""] remoteExec [""playmove"", 0]; [this, ""Acts_Briefing_SA_Loop""] remoteExec [""playmove"", 0]; [this, ""Acts_Briefing_SA_Loop""] remoteExec [""playmove"", 0]; [this, ""Acts_Briefing_SA_Loop""] remoteExec [""playmove"", 0]; [this, ""Acts_Briefing_SA_Loop""] remoteExec [""playmove"", 0]; this disableAI ""ANIM"";}";
+				};
+				id=251;
+				type="CUP_B_CDF_Soldier_MNT";
+				atlOffset=-0.26699829;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="CUP_D_Male03_CZ_ACR";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.94999999;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+		};
+		class Attributes
+		{
+		};
+		id=252;
+		atlOffset=-0.26699829;
+	};
+	class Item8
+	{
+		dataType="Group";
+		side="West";
+		class Entities
+		{
+			items=1;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={17.437866,3.2511597,16.302734};
+					angles[]={0,0.2561096,0};
+				};
+				side="West";
+				flags=7;
+				class Attributes
+				{
+					init="call{[this, ""Acts_Briefing_SB_Loop""] remoteExec [""switchmove"", 0]; [this, ""Acts_Briefing_SB_Loop""] remoteExec [""playmove"", 0];  [this, ""Acts_Briefing_SB_Loop""] remoteExec [""playmove"", 0]; [this, ""Acts_Briefing_SB_Loop""] remoteExec [""playmove"", 0]; [this, ""Acts_Briefing_SB_Loop""] remoteExec [""playmove"", 0]; [this, ""Acts_Briefing_SB_Loop""] remoteExec [""playmove"", 0]; [this, ""Acts_Briefing_SB_Loop""] remoteExec [""playmove"", 0]; [this, ""Acts_Briefing_SB_Loop""] remoteExec [""playmove"", 0]; [this, ""Acts_Briefing_SB_Loop""] remoteExec [""playmove"", 0]; [this, ""Acts_Briefing_SB_Loop""] remoteExec [""playmove"", 0]; [this, ""Acts_Briefing_SB_Loop""] remoteExec [""playmove"", 0]; [this, ""Acts_Briefing_SB_Loop""] remoteExec [""playmove"", 0]; [this, ""Acts_Briefing_SB_Loop""] remoteExec [""playmove"", 0]; [this, ""Acts_Briefing_SB_Loop""] remoteExec [""playmove"", 0]; [this, ""Acts_Briefing_SB_Loop""] remoteExec [""playmove"", 0]; [this, ""Acts_Briefing_SB_Loop""] remoteExec [""playmove"", 0]; this disableAI ""ANIM"";}";
+				};
+				id=250;
+				type="CUP_B_CDF_Soldier_MNT";
+				atlOffset=-0.24499512;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="CUP_D_Male05_CZ_ACR";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.98000002;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+		};
+		class Attributes
+		{
+		};
+		id=248;
+		atlOffset=-0.24499512;
+	};
+};

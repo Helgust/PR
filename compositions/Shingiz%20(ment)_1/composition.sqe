@@ -1,0 +1,166 @@
+version=53;
+center[]={4205.4888,5,3184.3579};
+class items
+{
+	items=1;
+	class Item0
+	{
+		dataType="Group";
+		side="East";
+		class Entities
+		{
+			items=1;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={0,0.0014390945,0.050048828};
+				};
+				side="East";
+				flags=7;
+				class Attributes
+				{
+					name="shingizment";
+					ignoreByDynSimulGrid=1;
+					class Inventory
+					{
+						class primaryWeapon
+						{
+							name="CUP_arifle_AK105";
+							class primaryMuzzleMag
+							{
+								name="CUP_30Rnd_545x39_AK74M_M";
+								ammoLeft=30;
+							};
+						};
+						class handgun
+						{
+							name="rhs_weap_6p53";
+							class primaryMuzzleMag
+							{
+								name="rhs_18rnd_9x21mm_7N28";
+								ammoLeft=18;
+							};
+						};
+						class uniform
+						{
+							typeName="rds_uniform_Policeman";
+							isBackpack=0;
+							class MagazineCargo
+							{
+								items=1;
+								class Item0
+								{
+									name="rhs_18rnd_9x21mm_7N28";
+									count=1;
+									ammoLeft=18;
+								};
+							};
+							class ItemCargo
+							{
+								items=1;
+								class Item0
+								{
+									name="FirstAidKit";
+									count=1;
+								};
+							};
+						};
+						map="ItemMap";
+						compass="ItemCompass";
+						watch="ItemWatch";
+						radio="ItemRadio";
+						headgear="rds_police_cap";
+					};
+				};
+				id=6;
+				type="CUP_O_TK_Soldier_AA";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male01PER";
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.99000001;
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="enableStamina";
+						expression="_this enablestamina _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=4;
+				};
+			};
+		};
+		class Attributes
+		{
+		};
+		id=7;
+	};
+};

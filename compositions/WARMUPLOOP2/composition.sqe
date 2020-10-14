@@ -1,0 +1,22 @@
+version=53;
+center[]={4522.9219,5,5663.6001};
+class items
+{
+	items=1;
+	class Item0
+	{
+		dataType="Trigger";
+		position[]={0,0,0};
+		class Attributes
+		{
+			condition="call{this}";
+			onActivation="call{[this, ""Acts_AidlPercMstpSloWWrflDnon_warmup_2_loop""] remoteExec [""switchmove"", 0];}";
+			sizeA=250;
+			sizeB=250;
+			repeatable=1;
+			activationBy="INDIA";
+		};
+		id=4;
+		type="EmptyDetectorAreaR250";
+	};
+};

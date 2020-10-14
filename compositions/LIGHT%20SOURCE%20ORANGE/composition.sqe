@@ -1,0 +1,18 @@
+version=53;
+center[]={4832.1919,45.081772,4606.8979};
+class items
+{
+	items=1;
+	class Item0
+	{
+		dataType="Logic";
+		class PositionInfo
+		{
+			angles[]={0,0,6.2826962};
+		};
+		init="call{light = ""#lightpoint"" createVehicleLocal position this; " \n "light setLightBrightness 0.1; " \n "light setLightAmbient[0, 0.2, 0]; " \n "light setLightColor[255, 69, 0]; " \n "light lightAttachObject [this, [0,0,0]];}";
+		id=876;
+		type="Logic";
+		atlOffset=3.0778656;
+	};
+};

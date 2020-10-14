@@ -1,0 +1,493 @@
+version=53;
+center[]={7984.1382,39.051678,4875.8462};
+class items
+{
+	items=4;
+	class Item0
+	{
+		dataType="Group";
+		side="Civilian";
+		class Entities
+		{
+			items=1;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={7.0097656,0.44239044,13.060547};
+					angles[]={0,4.2286363,0};
+				};
+				side="Civilian";
+				flags=3;
+				class Attributes
+				{
+					init="call{[this, ""Acts_CivilTalking_2""] remoteExec [""switchmove"", 0]; this disableAI ""ANIM"";}";
+					name="Pol1_4";
+					ignoreByDynSimulGrid=1;
+					class Inventory
+					{
+						class uniform
+						{
+							typeName="CUP_U_C_racketeer_03";
+							isBackpack=0;
+							class ItemCargo
+							{
+								items=1;
+								class Item0
+								{
+									name="FirstAidKit";
+									count=1;
+								};
+							};
+						};
+						watch="ItemWatch";
+					};
+				};
+				id=766;
+				type="CUP_C_R_Policeman_02";
+				atlOffset=0.51800156;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="CUP_D_Male03_RU";
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.03;
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="enableStamina";
+						expression="_this enablestamina _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=4;
+				};
+			};
+		};
+		class Attributes
+		{
+		};
+		id=765;
+		atlOffset=0.51800156;
+	};
+	class Item1
+	{
+		dataType="Group";
+		side="Civilian";
+		class Entities
+		{
+			items=1;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={5.8798828,0.45987701,12.889648};
+					angles[]={0,1.4304718,0};
+				};
+				side="Civilian";
+				flags=3;
+				class Attributes
+				{
+					init="call{[this, ""Acts_CivilTalking_1""] remoteExec [""switchmove"", 0]; this disableAI ""ANIM"";}";
+					name="Pol1_3";
+					ignoreByDynSimulGrid=1;
+					class Inventory
+					{
+						class uniform
+						{
+							typeName="CUP_U_C_Profiteer_02";
+							isBackpack=0;
+							class ItemCargo
+							{
+								items=1;
+								class Item0
+								{
+									name="FirstAidKit";
+									count=1;
+								};
+							};
+						};
+						watch="ItemWatch";
+					};
+				};
+				id=764;
+				type="CUP_C_R_Policeman_02";
+				atlOffset=0.52799988;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="CUP_D_Male03_RU";
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.03;
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="enableStamina";
+						expression="_this enablestamina _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=4;
+				};
+			};
+		};
+		class Attributes
+		{
+		};
+		id=763;
+		atlOffset=0.52799988;
+	};
+	class Item2
+	{
+		dataType="Group";
+		side="Civilian";
+		class Entities
+		{
+			items=1;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-5.7929688,0.0014381409,-13.808594};
+					angles[]={0,1.8686543,0};
+				};
+				side="Civilian";
+				flags=7;
+				class Attributes
+				{
+					init="call{this setObjectTexture [0, ""PoliceKZUniform2.jpg""]; [this, ""sitRfl_L_BidleLoop""] remoteexec [""switchmove"", 0]; this disableAI ""ANIM"";}";
+					ignoreByDynSimulGrid=1;
+				};
+				id=732;
+				type="CUP_C_R_Policeman_02";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="CUP_D_Male05_RU";
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.01;
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="enableStamina";
+						expression="_this enablestamina _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=4;
+				};
+			};
+		};
+		class Attributes
+		{
+		};
+		id=731;
+	};
+	class Item3
+	{
+		dataType="Group";
+		side="Civilian";
+		class Entities
+		{
+			items=1;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-7.097168,0.0021591187,-11.943359};
+					angles[]={0,1.4346606,0};
+				};
+				side="Civilian";
+				flags=7;
+				class Attributes
+				{
+					init="call{this setObjectTexture [0, ""PoliceKZUniform2.jpg""]; " \n "[this, ""Acts_AidlPercMstpSnonWnonDnon_warmup_4_loop""] remoteExec [""switchmove"", 0]; this disableAI ""ANIM"";}";
+					name="Pol1";
+					ignoreByDynSimulGrid=1;
+				};
+				id=730;
+				type="CUP_C_R_Policeman_02";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="CUP_D_Male03_RU";
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.03;
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="enableStamina";
+						expression="_this enablestamina _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=4;
+				};
+			};
+		};
+		class Attributes
+		{
+		};
+		id=729;
+	};
+};

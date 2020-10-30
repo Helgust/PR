@@ -12,14 +12,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=12;
+		nextID=14;
 	};
 	class Camera
 	{
-		pos[]={8832.7705,263.89172,5752.5356};
-		dir[]={0.71602863,-0.67733628,-0.16963427};
-		up[]={0.65918642,0.73554748,-0.15616038};
-		aside[]={-0.23052473,-6.8229856e-006,-0.9731366};
+		pos[]={9166.8799,160.71318,5487.5576};
+		dir[]={-0.42309567,-0.53522766,0.73128456};
+		up[]={-0.26811507,0.84458327,0.46340013};
+		aside[]={0.86561805,-3.1832606e-006,0.50084031};
 	};
 };
 binarizationWanted=0;
@@ -108,7 +108,7 @@ class AddonsMetaData
 		class Item8
 		{
 			className="A3_Props_F_Enoch";
-			name="Arma 3 Enoch - Decorative and Mission Objects";
+			name="Arma 3 Contact Platform - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
@@ -172,7 +172,7 @@ class AddonsMetaData
 		class Item18
 		{
 			className="A3_Missions_F_Oldman";
-			name="Arma 3 Oldman - Playable Content";
+			name="Arma 3 Old Man - Playable Content";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
@@ -288,7 +288,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={8870.8701,13.066775,5719.8799};
-				angles[]={-0,4.56531,0};
+				angles[]={0,4.56531,0};
 			};
 			side="Empty";
 			flags=4;
@@ -306,7 +306,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={8888.584,14.31824,5713.2739};
-				angles[]={-0,1.2554054,0};
+				angles[]={0,1.2554054,0};
 			};
 			side="Empty";
 			flags=4;
@@ -776,7 +776,7 @@ class Mission
 			};
 			id=206;
 			type="Land_Ind_BoardsPack2";
-			atlOffset=1.9169931;
+			atlOffset=1.9169922;
 		};
 		class Item12
 		{
@@ -1212,7 +1212,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={8892.1865,38.140621,5738.394};
-				angles[]={-0,5.7758689,0};
+				angles[]={0,5.7758689,0};
 			};
 			side="Empty";
 			flags=4;
@@ -1387,7 +1387,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={8898.459,14.874785,5717.4355};
-				angles[]={-0,1.5534528,0.061431289};
+				angles[]={0,1.5534528,0.061431289};
 			};
 			side="Empty";
 			flags=4;
@@ -1396,6 +1396,7 @@ class Mission
 			};
 			id=282;
 			type="CUP_C_Volha_Limo_TKCIV";
+			atlOffset=-0.0018453598;
 		};
 		class Item51
 		{

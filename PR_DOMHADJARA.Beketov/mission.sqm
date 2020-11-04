@@ -12,14 +12,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=14;
+		nextID=16;
 	};
 	class Camera
 	{
-		pos[]={9166.8799,160.71318,5487.5576};
-		dir[]={-0.42309567,-0.53522766,0.73128456};
-		up[]={-0.26811507,0.84458327,0.46340013};
-		aside[]={0.86561805,-3.1832606e-006,0.50084031};
+		pos[]={8873.3896,38.781197,5673.9893};
+		dir[]={-0.8982259,-0.36483547,0.24562378};
+		up[]={-0.35210222,0.93096524,0.096278206};
+		aside[]={0.26376465,1.8719002e-006,0.96464992};
 	};
 };
 binarizationWanted=0;
@@ -870,6 +870,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=214;
 			type="CUP_kitchen_table_a";
@@ -886,6 +887,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=215;
 			type="CUP_Kitchenstove_Elec";
@@ -895,13 +897,14 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={8892.8701,37.479389,5727.7969};
-				angles[]={0,2.3880308,0};
+				position[]={8892.1152,37.479389,5727.9756};
+				angles[]={-0,1.4540458,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=216;
 			type="CUP_kitchen_chair_a";
@@ -917,6 +920,8 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				createAsSimpleObject=1;
+				disableSimulation=1;
 			};
 			id=217;
 			type="Land_WoodenBed_01_F";
@@ -932,6 +937,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=220;
 			type="Land_Rug_01_F";
@@ -948,6 +954,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=221;
 			type="Land_Rug_01_Traditional_F";
@@ -964,6 +971,8 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				createAsSimpleObject=1;
+				disableSimulation=1;
 			};
 			id=222;
 			type="Land_OfficeCabinet_02_F";
@@ -980,6 +989,8 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				createAsSimpleObject=1;
+				disableSimulation=1;
 			};
 			id=223;
 			type="OfficeTable_01_old_F";
@@ -996,6 +1007,8 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				createAsSimpleObject=1;
+				disableSimulation=1;
 			};
 			id=224;
 			type="Land_ChairWood_F";
@@ -1012,6 +1025,8 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				createAsSimpleObject=1;
+				disableSimulation=1;
 			};
 			id=225;
 			type="Land_Metal_wooden_rack_F";
@@ -1028,6 +1043,8 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				createAsSimpleObject=1;
+				disableSimulation=1;
 			};
 			id=227;
 			type="Land_ChairWood_F";
@@ -1043,6 +1060,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=231;
 			type="CUP_obraz_kancl4";
@@ -1059,6 +1077,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=232;
 			type="CUP_sink";
@@ -1076,6 +1095,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=233;
 			type="CUP_fridge";
@@ -1085,13 +1105,14 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={8891.8232,37.479389,5728.6328};
-				angles[]={0,5.7828569,0};
+				position[]={8891.4805,37.479389,5728.2896};
+				angles[]={-0,6.2197413,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=238;
 			type="CUP_kitchen_chair_a";
@@ -1108,6 +1129,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=239;
 			type="CUP_kitchen_chair_a";
@@ -1124,6 +1146,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=241;
 			type="CUP_case_wall_unit_part_c";
@@ -1139,6 +1162,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=242;
 			type="CUP_stul_hospoda";
@@ -1155,6 +1179,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=247;
 			type="GunrackTK_EP1";
@@ -1171,6 +1196,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=249;
 			type="CUP_office_chair";
@@ -1186,6 +1212,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=253;
 			type="Land_Carpet_EP1";
@@ -1201,6 +1228,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=254;
 			type="rhs_weapon_akmn";
@@ -1218,6 +1246,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=256;
 			type="Item_optic_Aco_smg";
@@ -1234,6 +1263,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=257;
 			type="rhsgref_hidf_alicepack";
@@ -1249,6 +1279,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=261;
 			type="Item_Money_stack";
@@ -1264,6 +1295,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=265;
 			type="EvMoney";
@@ -1280,6 +1312,8 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
+				createAsSimpleObject=1;
+				disableSimulation=1;
 			};
 			id=266;
 			type="Land_Money_F";
@@ -1296,6 +1330,8 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
+				createAsSimpleObject=1;
+				disableSimulation=1;
 			};
 			id=267;
 			type="Land_MoneyBills_01_roll_F";
@@ -1312,6 +1348,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=270;
 			type="Item_Money_bunch";
@@ -1328,6 +1365,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=272;
 			type="EvMap";
@@ -1345,6 +1383,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=276;
 			type="Item_U_C_IDAP_Man_tee_F";
@@ -1361,6 +1400,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=278;
 			type="Item_rds_car_FirstAidKit";
@@ -1376,6 +1416,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=281;
 			type="Item_MobilePhone";
@@ -2180,6 +2221,7 @@ class Mission
 					{
 						name="khadjar";
 						isPlayable=1;
+						disableSimulation=1;
 						class Inventory
 						{
 							class uniform
